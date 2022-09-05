@@ -53,7 +53,7 @@ if simulate==1
     end
 else
     %%% load from file
-    x = importdata('sde_solution.txt');
+    x = importdata('C++ Solver/Outputs/output_D1e-5.txt');
 end
 
 x_mesh = linspace(0.001,0.5,1000);
